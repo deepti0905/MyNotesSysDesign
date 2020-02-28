@@ -48,7 +48,16 @@
   * Textual: XML, CSV, JSON
   * Binary: Thrift, Protocol Buffers, Avro"
 * Web/API Server on an avg can handle 1000 request per second
-
+* Actions of API Server
+  * Request Validation
+  * Authentication/Authorization
+  * TLS or SSL Termination
+  * Server side encryption
+  * Caching
+  * Rate Limiting
+  * Request Dispatching
+  * Request De dupication
+  * Usage Data collection
 
 ## Process Queue/Broker
 * If response time required is quick we use buffering queue else payloads can be batched for workers
