@@ -50,13 +50,30 @@
 * Web/API Server on an avg can handle 1000 request per second
 * Actions of API Server
   * Request Validation
+    * Required parameters are present
+    * Data falls within acceptable range
   * Authentication/Authorization
+    * Authentication is the process of validating the identity of a user or a service
+    * Authorization is the process of determining whether or not a specific actor is permitted to take a certain action
   * TLS or SSL Termination
+    * TLS is a protocol that aims to provide privacy and data integrity
+    * TLS termination refers to the process of decrypting request and passing on an unencrypted request to the back end service
+    * SSL on the load balancer is expensive
+    * This is done by TLS Proxy that runs as a process on the same host as API Server
   * Server side encryption
   * Caching
   * Rate Limiting
+    * Throttling is the process of limiting the number of requests you can submit to a given operation in a given amount of time
+    * Throttling protects the web service from being overwhelmed with requests
+    * Leaky bucket algorithm is one of the most famous
   * Request Dispatching
+    * Responsible for all the activities associated with sending requests to backend services 
+    * Bulkhead pattern helps to isolate elements of an application into pools so that if one fails other continues to function
+    * Circuit breaker, prevents an application from repeatedly trying to execute an operation that is likely to fail
   * Request De dupication
+  * Response from a successful sendMessage request fails to reach client
+  * At most once delivery symantecs
+  * Caching to identufy duplicates
   * Usage Data collection
 
 ## Process Queue/Broker
@@ -78,6 +95,7 @@
 |----------|-------------|------------------------|-------------------------|-------------|-------------------------|
 | 0.5ns    | 7ns or 14xL1|100ns or 20xL2 or 200xL1|10 ms or 40xRAM or 10xSSD| 1ms or 4xRAM|30ms or 120xRAM or 30xSSD|
 
+![Meta Data Server](https://github.com/deepti0905/MyNotesSysDesign/blob/master/MetaData.PNG)
 ## Hot Data
 * DB wil most accessed data
 * data needs to be sharded
