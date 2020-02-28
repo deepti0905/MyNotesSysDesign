@@ -79,6 +79,17 @@
 ## Process Queue/Broker
 * If response time required is quick we use buffering queue else payloads can be batched for workers
 * Kafka is an example
+  * Can scale to 100s of brokers
+  * Can scale to millions of messages per second
+  * Latency is less than 10ms.
+  * Use Cases
+    * Messaging system
+    * Activity Tracing
+    * Gather metrics from many different locations
+    * Application Logs gathering
+    * Stream processing ( with the Kafka Streams API or Spark for example)
+    * De-coupling of system dependencies
+    * Integration with Spark, Flink, Storm, Hadoop and many other Big Data technologies
 * Multiple queues dealing with multiple partitions
 * Hot Partitions can occur
 
