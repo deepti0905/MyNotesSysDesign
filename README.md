@@ -47,6 +47,7 @@
 * multiple services communicate in Message Formats:
   * Textual: XML, CSV, JSON
   * Binary: Thrift, Protocol Buffers, Avro"
+* Web/API Server on an avg can handle 1000 request per second
 
 
 ## Process Queue/Broker
@@ -86,6 +87,12 @@
     * MongoDB (uses leader based replication)
   * Graph
     * Neo4j"
+
+Performance Numbers
+| MySQL | PostGres| Object Store| Memory Cache | SQL Server Master slave Write| Amazon Glacier|Oracle|
+|-------|---------|-------------|--------------|------------------------------|---------------|------|
+|5000 qps on commodity server and > 2000 qps from a single correspondent on 1GB/sec network|16000 transactions per second with  0.9ms latency at 95th percentile|at least 3,500 PUT/COPY/POST/DELETE and 5,500 GET/HEAD requests per second per prefix in a bucket|40000 avg read request per second|400 avg writes per second|Latency 3 to 5 hours are acceptable. Amazon S3 Glacier provides three options for access to archives, from a few minutes to several hours, and S3 Glacier Deep Archive provides two access options ranging from 12 to 48 hours.|Oracle is comparable to postgres|
+|-------|---------|Latency 100-200 ms|--------------|------------------------------|---------------|------|
 
 
 ## Cold Data
