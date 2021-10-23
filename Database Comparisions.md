@@ -5,10 +5,10 @@
 
 * Easy to use
 * It is secure
-** MySQL consists of a solid data security layer that protects sensitive data from intruders. Also, passwords are encrypted in MySQL.
+  * MySQL consists of a solid data security layer that protects sensitive data from intruders. Also, passwords are encrypted in MySQL.
 * Client/ Server Architecture
 * It is scalable
-** MySQL supports multi-threading that makes it easily scalable. It can handle almost any amount of data, up to as much as 50 million rows or more. The default file size limit is about 4 GB. However, we can increase this number to a theoretical limit of 8 TB of data.
+  * MySQL supports multi-threading that makes it easily scalable. It can handle almost any amount of data, up to as much as 50 million rows or more. The default file size limit is about 4 GB. However, we can increase this number to a theoretical limit of 8 TB of data.
 
 * Speed
 MySQL is considered one of the very fast database languages, backed by a large number of the benchmark test.
@@ -29,7 +29,7 @@ MySQL is faster, more reliable, and cheaper because of its unique storage engine
 
 MySQL uses Triggers, Stored procedures, and views that allow the developer to give higher productivity.
 
-Partitioning
+* Partitioning
 
 This feature improves the performance and provides fast management of the large database.
 
