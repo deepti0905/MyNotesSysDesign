@@ -71,3 +71,37 @@ It has the following characteristics:
   * User-defined types.
 
 ## NoSQL
+### Key Value
+#### Couch DB
+### Column Oriented
+#### Cassandra
+* Features of Cassandra
+ * There are a lot of outstanding technical features which makes Cassandra very popular. Following is a list of some popular features of Cassandra:
+
+* High Scalability
+ * Cassandra is highly scalable which facilitates you to add more hardware to attach more customers and more data as per requirement.
+
+* Rigid Architecture
+Cassandra has not a single point of failure and it is continuously available for business-critical applications that cannot afford a failure.
+
+* Fast Linear-scale Performance
+Cassandra is linearly scalable. It increases your throughput because it facilitates you to increase the number of nodes in the cluster. Therefore it maintains a quick response time.
+
+* Fault tolerant
+Cassandra is fault tolerant. Suppose, there are 4 nodes in a cluster, here each node has a copy of same data. If one node is no longer serving then other three nodes can served as per request.
+
+* Flexible Data Storage
+Cassandra supports all possible data formats like structured, semi-structured, and unstructured. It facilitates you to make changes to your data structures according to your need.
+
+* Easy Data Distribution
+Data distribution in Cassandra is very easy because it provides the flexibility to distribute data where you need by replicating data across multiple data centers.
+
+* Transaction Support
+Cassandra supports properties like Atomicity, Consistency, Isolation, and Durability (ACID).
+
+* Fast writes
+Cassandra was designed to run on cheap commodity hardware. It performs blazingly fast writes and can store hundreds of terabytes of data, without sacrificing the read efficiency.
+
+
+### Document Oriented
+### Graph
