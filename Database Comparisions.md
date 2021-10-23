@@ -78,11 +78,11 @@ It has the following characteristics:
 * Features of Cassandra
  * There are a lot of outstanding technical features which makes Cassandra very popular. Following is a list of some popular features of Cassandra:
 
-* High Scalability
- * Cassandra is highly scalable which facilitates you to add more hardware to attach more customers and more data as per requirement.
+  * High Scalability
+   * Cassandra is highly scalable which facilitates you to add more hardware to attach more customers and more data as per requirement.
 
-* Rigid Architecture
-Cassandra has not a single point of failure and it is continuously available for business-critical applications that cannot afford a failure.
+ * Rigid Architecture
+* Cassandra has not a single point of failure and it is continuously available for business-critical applications that cannot afford a failure.
 
 * Fast Linear-scale Performance
 Cassandra is linearly scalable. It increases your throughput because it facilitates you to increase the number of nodes in the cluster. Therefore it maintains a quick response time.
