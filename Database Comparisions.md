@@ -44,30 +44,30 @@ Following are the few disadvantages of MySQL:
 ### SQLServer
 ### PostGresSQL
 * Key Features
-This supports the locking mechanism.
-It has high availability.
-It is free and open-source software.
-This is ACID compliant.
-It has the capacity for fault tolerance.
-It also supports image, video, audio storage and supports graphical data.
-It requires deficient maintenance.
-It supports Multi-version concurrency control (MVCC).
-Recovery is high.
-It has user-defined data types.
-Table inheritance.
-It runs on all operating systems.
+  * This supports the locking mechanism.
+  * It has high availability.
+  * It is free and open-source software.
+  * This is ACID compliant.
+  * It has the capacity for fault tolerance.
+  * It also supports image, video, audio storage and supports graphical data.
+  * It requires deficient maintenance.
+  * It supports Multi-version concurrency control (MVCC).
+  * Recovery is high.
+  * It has user-defined data types.
+  * Table inheritance.
+  * It runs on all operating systems.
 
 * What is the Use of PostgreSQL?
 It has the following characteristics:
 
-Sophisticated locking.
-View.
-Foreign key referential integrity.
-Rules.
-Inheritance.
-MVCC (Multiple version concurrency control).
-Subselects.
-Transactions.
-User-defined types.
+  * Sophisticated locking.
+  * View.
+  * Foreign key referential integrity.
+  * Rules.
+  * Inheritance.
+  * MVCC (Multiple version concurrency control).
+  * Subselects.
+  * Transactions.
+  * User-defined types.
 
 ## NoSQL
