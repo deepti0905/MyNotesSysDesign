@@ -77,7 +77,7 @@ It has the following characteristics:
 #### Cassandra
 * Features of Cassandra
  * There are a lot of outstanding technical features which makes Cassandra very popular. Following is a list of some popular features of Cassandra:
-
+ ![Architechture](Gossip.PNG)
  * High Scalability
     * Cassandra is highly scalable which facilitates you to add more hardware to attach more customers and more data as per requirement.
 
